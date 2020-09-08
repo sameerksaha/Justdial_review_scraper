@@ -22,6 +22,7 @@ def rating(body):
 def get_date(body):
     return body.find('span', {'class': "dtyr ratx pull-right"})
 
+
 u = "https://www.justdial.com/Delhi/S-K-Premium-Par-Hari-Nagar/011PXX11-XX11-131128122154-B8G6_BZDET"
 page_number = 1
 while True:
@@ -56,5 +57,4 @@ while True:
         print(f"Profile Image- {img_link}")
         print()
 
-        
     page_number = page_number + 1
