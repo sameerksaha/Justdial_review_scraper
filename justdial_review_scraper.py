@@ -55,4 +55,6 @@ while True:
         img_link = img_soup[0].get('src')
         print(f"Profile Image- {img_link}")
         print()
+
+        
     page_number = page_number + 1
