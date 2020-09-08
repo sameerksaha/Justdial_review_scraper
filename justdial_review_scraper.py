@@ -23,7 +23,7 @@ def get_date(body):
     return body.find('span', {'class': "dtyr ratx pull-right"})
 
 
-u = "https://www.justdial.com/Delhi/S-K-Premium-Par-Hari-Nagar/011PXX11-XX11-131128122154-B8G6_BZDET"
+u = input("Enter your URL: ")
 page_number = 1
 while True:
     session = requests.Session()
